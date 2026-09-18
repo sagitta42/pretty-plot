@@ -23,8 +23,15 @@ PATH_TO_CONFIGS = PATH_TO_ASSETS / "configs"
 
 
 class TestCase(BaseModel):
-    answer: int
-    message: str
+    date: bool
+    warning: bool
+    warning_location: str
+    warning_color: str
+    date_location: str
+    logo_outside: bool
+    logo_location: str
+    logo_scale: float
+    warning_fontsize: str
 
 
 def read_test_config(filename: str) -> TestCase:

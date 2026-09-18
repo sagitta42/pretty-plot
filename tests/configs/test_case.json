@@ -1,4 +1,11 @@
 {
-    "answer": 42,
-    "message": "The answer to the question of life, universe, and everything"
+    "date": true,
+    "warning": true,
+    "warning_location": "center left",
+    "warning_color": "red",
+    "date_location": "bottom center",
+    "logo_outside": false,
+    "logo_location": "bottom right",
+    "logo_scale": 0.002,
+    "warning_fontsize": "medium"
 }
