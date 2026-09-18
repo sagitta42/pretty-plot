@@ -1,21 +1,17 @@
 [project]
 name = "pretty-plot"
 version = "0.1.0"
-description = ""
-authors = [
-    {name = "sagitta42",email = "mariia.redchuk@gmail.com"}
-]
+description = "Plot prettifier"
+authors = [{ name = "sagitta42", email = "mariia.redchuk@gmail.com" }]
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = [
-    "pydantic (>=2.13.5,<3.0.0)"
-]
+dependencies = ["pydantic (>=2.13.5,<3.0.0)", "matplotlib (>=3.11.2,<4.0.0)"]
 
 [project.scripts]
 pretty-plot = "pretty_plot.__main__:main"
 
 [tool.poetry]
-packages = [{include = "pretty_plot", from = "src"}]
+packages = [{ include = "pretty_plot", from = "src" }]
 
 [tool.poetiq]
 type = "package"
@@ -28,6 +24,4 @@ requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [dependency-groups]
-dev = [
-    "pytest (>=9.1.1,<10.0.0)"
-]
+dev = ["pytest (>=9.1.1,<10.0.0)"]
