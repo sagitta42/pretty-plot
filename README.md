@@ -33,9 +33,13 @@ prettify(
 )
 ```
 
-Result:
+Before:
 
-![](examples/example.svg)
+![](examples/example_before.svg)
+
+After `prettify()`:
+
+![](examples/example_after.svg)
 
 
 -----
